@@ -1,0 +1,18 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-color: ivory;
+}
+#value{
+    font-size: 4em;
+    font-weight: 700;
+}
