@@ -8,6 +8,9 @@ This is a very simple project and all it does is changes its background color wh
 Another very simple project which can be used for counting which has 3 buttons, increase, decrease and reset. If count goes above 0 its color will be green and if it goes under 0 its color will be red otherwise it will stay black.
 
 #3) Review carousel
+
 #4)Expanding Cards
 The card will be expanded on mouse hover event.
 
+#Progress Steps
+Simple project to show progress steps 
