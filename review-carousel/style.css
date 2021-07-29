@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:lightcyan;
+}
+.container .title h2{
+    font-size: 2em;
+}
+.title .underline{
+    width: 50px;
+    height: 5px;
+    background-color: royalblue;
+    margin: auto;
+}
+.title{
+    margin: 5em;
+}
+.review{
+    width: 400px;
+    background-color: #fff;
+    padding: 1em 2em;
+    box-shadow:0 0 10px #ddd;
+}
+.img-container{
+}
+.img-container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.review h4{
+    letter-spacing: 3px;
+}
+.review #job{
+    font-size: .9em;
+    margin: 6px 0;
+    color:royalblue;
+    text-transform: uppercase;
+}
+.review #info{
+    font-size: .8em;
+    margin-bottom: 6px;
+}
+button{
+    padding: 4px 10px;
+    background-color: rgb(58, 90, 184);
+    color: #fff;
+    outline: none;
+    border:none;
+    margin-right: 5px;
+}
