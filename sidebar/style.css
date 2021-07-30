@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    position: relative;
+    background-color: lightcyan;
+}
+.sidebar-toggle{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition:all 0.3s linear;
+}
+.sidebar{
+    border: 1x solid red;
+    flex: 1;
+    position: relative;
+    height: 100%;
+    background-color: #fff;
+    transform: translateX(-100%);
+    transition:all .3s linear;
+}
+.show{
+    transform: translate(0);
+}
+.sidebar h1 span{
+    color: mediumblue;
+}
+
+button{
+    outline: none;
+    border: 1px solid mediumblue;
+    cursor: pointer;
+}
+button>i{
+    font-size: 1.5em;
+    color:mediumblue;
+    background: #fff;
+    padding: 5px 10px;
+}
+.sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom:2em ;
+}
+.sidebar .links li{
+    padding: 1em 10px;
+}
+.sidebar .links li:hover{
+    background-color:lightcyan;
+    cursor: pointer;
+}
+.links li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.sidebar .social-icons{
+    position: absolute;
+    bottom: 1em;
+    right: 50%;
+    transform: translateX(50%);
+    display: flex;
+}
+.social-icons li{
+    list-style-type: none;
+    margin: auto 1em;
+}
+@media screen and (min-width: 676px) {
+    .sidebar{
+        width: 400px;
+    }
+}
